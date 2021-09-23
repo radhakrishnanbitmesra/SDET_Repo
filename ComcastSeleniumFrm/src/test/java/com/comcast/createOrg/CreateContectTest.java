@@ -4,25 +4,25 @@ import org.testng.annotations.Test;
 
 public class CreateContectTest {
 	
-	@Test
+	@Test(groups="SmokeSuite")
 	public void creatContectTest()
 	{
 		System.out.println("Execute CreateContectTest ");
 	}
 	
-	@Test
+	@Test(groups="SmokeSuite")
 	public void creatContectWithOrgTest()
 	{
 		System.out.println("Execute creatContectWithOrgTest ");
 	}
 	
-	@Test
+	@Test(groups="RegressionSuite")
 	public void deleatContectTest()
 	{
 		System.out.println("Execute deleatContectTest ");
 	}
 	
-	@Test
+	@Test(groups="RegressionSuite")
 	public void serchContectTest()
 	{
 		System.out.println("Execute serchContectTest ");

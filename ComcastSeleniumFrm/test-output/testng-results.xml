@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33" started-at="2021-09-22T13:57:47 IST" finished-at="2021-09-22T13:57:47 IST">
+  <suite started-at="2021-09-23T15:24:38 IST" name="Suite" finished-at="2021-09-23T15:24:38 IST" duration-ms="55">
     <groups>
+      <group name="RegressionSuite">
+        <method signature="CreateContectTest.deleatContectTest()[pri:0, instance:com.comcast.createOrg.CreateContectTest@2accdbb5]" name="deleatContectTest" class="com.comcast.createOrg.CreateContectTest"/>
+        <method signature="CreateContectTest.serchContectTest()[pri:0, instance:com.comcast.createOrg.CreateContectTest@2accdbb5]" name="serchContectTest" class="com.comcast.createOrg.CreateContectTest"/>
+        <method signature="OrgTest.creatContectOrgTest()[pri:0, instance:com.comcast.orgTest.OrgTest@6bedbc4d]" name="creatContectOrgTest" class="com.comcast.orgTest.OrgTest"/>
+        <method signature="OrgTest.deleatOrgTest()[pri:0, instance:com.comcast.orgTest.OrgTest@6bedbc4d]" name="deleatOrgTest" class="com.comcast.orgTest.OrgTest"/>
+      </group> <!-- RegressionSuite -->
     </groups>
-    <test name="Default test" duration-ms="33" started-at="2021-09-22T13:57:47 IST" finished-at="2021-09-22T13:57:47 IST">
+    <test started-at="2021-09-23T15:24:38 IST" name="Test" finished-at="2021-09-23T15:24:38 IST" duration-ms="55">
       <class name="com.comcast.createOrg.CreateContectTest">
-        <test-method status="PASS" signature="creatContectTest()[pri:0, instance:com.comcast.createOrg.CreateContectTest@27a5f880]" name="creatContectTest" duration-ms="6" started-at="2021-09-22T13:57:47 IST" finished-at="2021-09-22T13:57:47 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatContectTest -->
-        <test-method status="PASS" signature="creatContectWithOrgTest()[pri:0, instance:com.comcast.createOrg.CreateContectTest@27a5f880]" name="creatContectWithOrgTest" duration-ms="1" started-at="2021-09-22T13:57:47 IST" finished-at="2021-09-22T13:57:47 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatContectWithOrgTest -->
-        <test-method status="PASS" signature="deleatContectTest()[pri:0, instance:com.comcast.createOrg.CreateContectTest@27a5f880]" name="deleatContectTest" duration-ms="1" started-at="2021-09-22T13:57:47 IST" finished-at="2021-09-22T13:57:47 IST">
+        <test-method signature="deleatContectTest()[pri:0, instance:com.comcast.createOrg.CreateContectTest@2accdbb5]" started-at="2021-09-23T15:24:38 IST" name="deleatContectTest" finished-at="2021-09-23T15:24:38 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleatContectTest -->
+        <test-method signature="serchContectTest()[pri:0, instance:com.comcast.createOrg.CreateContectTest@2accdbb5]" started-at="2021-09-23T15:24:38 IST" name="serchContectTest" finished-at="2021-09-23T15:24:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serchContectTest -->
       </class> <!-- com.comcast.createOrg.CreateContectTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.comcast.orgTest.OrgTest">
+        <test-method signature="creatContectOrgTest()[pri:0, instance:com.comcast.orgTest.OrgTest@6bedbc4d]" started-at="2021-09-23T15:24:38 IST" name="creatContectOrgTest" finished-at="2021-09-23T15:24:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatContectOrgTest -->
+        <test-method signature="deleatOrgTest()[pri:0, instance:com.comcast.orgTest.OrgTest@6bedbc4d]" started-at="2021-09-23T15:24:38 IST" name="deleatOrgTest" finished-at="2021-09-23T15:24:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleatOrgTest -->
+      </class> <!-- com.comcast.orgTest.OrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
