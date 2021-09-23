@@ -7,7 +7,13 @@ public class OrgTest {
 	@Test(groups="SmokeSuite")
 	public void creatOrgTest()
 	{
+		
 		System.out.println("Execute creatOrgTest ");
+		String Browser = System.getProperty("browser");
+		String URL = System.getProperty("url");
+		System.out.println(Browser);
+		System.out.println(URL);
+		
 	}
 	
 	@Test(groups="RegressionSuite")
@@ -20,6 +26,11 @@ public class OrgTest {
 	public void deleatOrgTest()
 	{
 		System.out.println("Execute deleatOrgTest ");
+		
+		String Browser = System.getProperty("browser");
+		String URL = System.getProperty("url");
+		System.out.println(Browser);
+		System.out.println(URL);
 	}
 
 }
