@@ -21,4 +21,10 @@ public class CreateContectTest {
 	{
 		System.out.println("Execute deleatContectTest ");
 	}
+	
+	@Test
+	public void serchContectTest()
+	{
+		System.out.println("Execute serchContectTest ");
+	}
 }
